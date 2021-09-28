@@ -1,0 +1,122 @@
+/* common */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.dLink {
+    color: black;
+}
+
+.displayNone {
+    display: none;
+}
+
+
+/* sementic tags */
+
+section {
+    width: 60%;
+    margin: 30px auto;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+/* main */
+
+
+/* spinner */
+
+.spinnerBox {
+    font-size: 50px;
+    z-index: 1;
+}
+
+.spinner {
+    animation: spinner 2s infinite;
+}
+
+@keyframes spinner {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* search  */
+
+.searchForm {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.search {
+    padding: 2px;
+    margin: 5px;
+    font-size: 18px;
+    border-radius: 3px;
+    border: 2px solid black;
+}
+
+.searchBar {
+    width: 70%;
+}
+
+.searchButton {
+    width: 30%;
+}
+
+
+/* info */
+
+.info {
+    width: 100%;
+}
+
+.tham {
+    width: 80%;
+    margin: auto;
+}
+
+.img {
+    width: 100%;
+    margin: auto;
+}
+
+
+/* download link table */
+
+table {
+    width: 100%;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+tr:nth-child(odd) {
+    background-color: #FFB085;
+}
+
+tr:nth-child(even) {
+    background-color: #F9D5A7;
+}
+
+th {
+    background-color: #90AACB;
+}
+
+@media only screen and (max-width:900px) {
+    section {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:550px) {
+    table {
+        font-size: 20px;
+    }
+    section {
+        width: 90%;
+    }
+}

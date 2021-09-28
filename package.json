@@ -1,0 +1,16 @@
+{
+    "name": "youtube-downloader",
+    "version": "1.0.0",
+    "description": "testing youtube downloader",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Harshwardhan A. Jagtap",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "nodemon": "^2.0.13",
+        "ytdl-core": "^4.9.1"
+    }
+}
